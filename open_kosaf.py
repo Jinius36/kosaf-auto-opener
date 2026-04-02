@@ -39,7 +39,7 @@ def open_website():
         
         time.sleep(5)  # 60초 → 5초로 수정
         
-        url = "https://anyid.kosaf.go.kr/view/login.jsp?#/"
+        url = "https://www.kosaf.go.kr/ko/login_sc.do"
         try:
             webbrowser.open(url)
             logging.info("디버깅 모드: 5초 대기 후 웹페이지를 성공적으로 열었습니다.")
